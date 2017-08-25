@@ -173,7 +173,7 @@ define('SUBMISSION_CLOSED', false);
 /**
  * Define constant for theme
  */
-define('SITE_THEMES', 'civici-iopart_statuto');
+define('SITE_THEMES', 'default');
 
 /**
  * Constant for number of boxes to be shown in a single row on home page
