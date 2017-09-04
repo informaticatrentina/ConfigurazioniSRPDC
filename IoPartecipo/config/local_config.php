@@ -63,13 +63,12 @@ define('AGGREGATOR_API_URL', 'http://jlb_agg.partecipa.tn.it/api/v1/M91z6wSbYKwg
 /**
  * Define identity manager details
  */
-#define('IDENTITY_MANAGER_API_URL', 'http://jlb_id.partecipa.tn.it/v1/');
-#define('IDM_USER_ENTITY', 'users');
-#define('IDM_API_KEY', 'AbDM5azSzE4bCqml');
+
 
 define('IDENTITY_MANAGER_API_URL', 'http://jlb_id.partecipa.tn.it/v1/');
 define('IDM_USER_ENTITY', 'users');
-define('IDM_API_KEY', 'identitymngt-soc');
+# Inserire chiave api key identity manager 
+define('IDM_API_KEY', 'AbDM5azSzE4bCqml');
 
 /**
  * Define application log file name
