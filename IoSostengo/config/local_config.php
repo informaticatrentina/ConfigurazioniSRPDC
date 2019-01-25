@@ -94,7 +94,7 @@ $time_range = array(8, 10, 12, 14);
 define('TIME_DEFAULT_RANGE', json_encode($time_range));
 
 // Define super user for crowdfunding.
-$super_user = array('anna.stefani@infotn.it','gianfranco.stellucci@infotn.it','stefano.schivari@jlbbooks.it');
+$super_user = array('anna.stefani@tndigit.it','gianfranco.stellucci@tndigit.it');
 define('SUPER_USER', json_encode($super_user));
 
 // Defiend backend Roles.
@@ -168,7 +168,7 @@ define("ADDITIONAL_QUESTION", json_encode($question));
 define('MAIL_FROM', 'info@partecipa.tn.it');
 define('SMTP_HOST', 'smtp.infotn.it');
 define('SMTP_USER', 'info@partecipa.tn.it');
-define('SMTP_PASSWORD', 'ds453grt');
+define('SMTP_PASSWORD', 'uMst_2017*');
 define('SMTP_PORT', '25');
 define('SMTP_ENCRYPTION', '');
 
