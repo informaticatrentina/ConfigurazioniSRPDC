@@ -120,7 +120,7 @@ define('ALL_ENTRY', '999999');
 define('STORY','story');
 
 define('SITE_THEME', 'classic');
-define('RBAC_ADMIN_USER', 'anna.stefani@infotn.it');
+define('RBAC_ADMIN_USER', 'anna.stefani@tndigit.it');
 define('DEFAULT_EMAIL', 'info@partecipa.tn.it');
 define('INVITATION_MAIL_SUBJECT', 'Invitation for adding story');
 define('SHORT_DESCRIPTION_LIMIT', 242);
@@ -133,7 +133,7 @@ define('PROFILE_URL', 'https://jlb_prof.partecipa.tn.it/show/');
 define('SMTP_HOST', 'smtp.infotn.it');
 define('SMTP_PORT', '25');
 define('SMTP_USER', 'info@partecipa.tn.it');
-define('SMTP_PASSWORD', 'ds453grt');
+define('SMTP_PASSWORD', 'uMst_2017*');
 define('SMTP_AUTH', true);
 // set 1 for enable sendmail else 0 for smtp
 define('ENABLE_SENDMAIL', 0);
