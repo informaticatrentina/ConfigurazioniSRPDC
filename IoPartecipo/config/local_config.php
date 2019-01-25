@@ -83,7 +83,7 @@ define('SITE_SESSION_COOKIE_NAME', 'jlb_civici');
 /**
  * Define contest Admin users email
  */
-define('DISCUSSION_ADMIN_USERS', '[ "anna.stefani@infotn.it",  "alessio.massaro@infotn.it"]');
+define('DISCUSSION_ADMIN_USERS', '[ "anna.stefani@tndigit.it",  "alessio.massaro@tndigit.it"]');
 
 /**
  * Define site language
@@ -252,7 +252,7 @@ define('ENABLE_SENDMAIL', 0);
 define('SMTP_HOST', 'smtp.infotn.it');
 define('SMTP_PORT', '25');
 define('SMTP_USER', 'info@partecipa.tn.it');
-define('SMTP_PASSWORD', 'ds453grt');
+define('SMTP_PASSWORD', 'uMst_2017*');
 define('SMTP_AUTH', true);
 // Default email
 define('DEFAULT_EMAIL', 'info@partecipa.tn.it');
