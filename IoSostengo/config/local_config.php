@@ -97,17 +97,10 @@ define('TIME_DEFAULT_RANGE', json_encode($time_range));
 $super_user = array('anna.stefani@tndigit.it','gianfranco.stellucci@tndigit.it');
 define('SUPER_USER', json_encode($super_user));
 
-// Defiend backend Roles. Verify FS_ROLES file before $super_user array.
-if (file_exists(__DIR__.'/../data/'.FS_ROLES))
-{
-    $backend_roles_files=file_get_contents(__DIR__.'/../data/'.FS_ROLES);
-    define("BACKEND_ROLES", $backend_roles_files);
-}
-else
-{
-    $backend_roles = array('standard' => Yii::t('app', 'Standard'),'organisation_owner' => Yii::t('app', 'Organisation'));
-    define("BACKEND_ROLES", json_encode($backend_roles));
-}
+// Defiend backend Roles.
+$backend_roles = array('standard' => Yii::t('app', 'Standard'),
+                  'organisation_owner' => Yii::t('app', 'Organisation'));
+define("BACKEND_ROLES", json_encode($backend_roles));
 
 // Defiend additional question for new user.
 $question = array(
