@@ -133,7 +133,7 @@ define('PROFILE_URL', 'https://jlb_prof.partecipa.tn.it/show/');
 define('SMTP_HOST', 'smtp.infotn.it');
 define('SMTP_PORT', '25');
 define('SMTP_USER', 'info@partecipa.tn.it');
-define('SMTP_PASSWORD', 'uMst_2017*');
+define('SMTP_PASSWORD', 'mE872Dir*');
 define('SMTP_AUTH', true);
 // set 1 for enable sendmail else 0 for smtp
 define('ENABLE_SENDMAIL', 0);

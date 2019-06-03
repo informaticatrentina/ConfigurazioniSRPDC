@@ -226,7 +226,7 @@ define('GOOGLE_ANALYTIC_COOKIE_DOMAIN','jlb_civici.partecipa.tn.it');
 define('LOG_LEVEL_ACTIVE', 'error, info, trace');
 
 // super admin user
-define('RBAC_ADMIN_USER', 'stefano.schivari@jlbbooks.it');
+define('RBAC_ADMIN_USER', 'anna.stefani@tndigit.it');
 
 // all permissions that can be assigned
 $rbacPermission = array(
@@ -252,7 +252,7 @@ define('ENABLE_SENDMAIL', 0);
 define('SMTP_HOST', 'smtp.infotn.it');
 define('SMTP_PORT', '25');
 define('SMTP_USER', 'info@partecipa.tn.it');
-define('SMTP_PASSWORD', 'uMst_2017*');
+define('SMTP_PASSWORD', 'mE872Dir*');
 define('SMTP_AUTH', true);
 // Default email
 define('DEFAULT_EMAIL', 'info@partecipa.tn.it');
