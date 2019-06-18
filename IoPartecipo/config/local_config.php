@@ -128,6 +128,7 @@ define('RUNTIME_DIRECTORY', dirname(__FILE__).'/../runtime');
  * constant for aggregator source for this site instance
  */
 define('CIVICO', 'jlb_civici');
+define('SOURCE', 'jlb_civici');
 
 /**
  * define constant for civiclinks constant
