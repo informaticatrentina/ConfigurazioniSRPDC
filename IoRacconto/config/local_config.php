@@ -114,7 +114,14 @@ define('REGISTRATION_URL','#');
 define('SESSION_TIMEOUT_TIME', 172800);
 
 define('USER_GENERATED_DIRECTORY', '["uploads"]');
-define('PERMISSION', '["Can create story", "Can edit story", "Can delete story", "is admin", "Can add post"]');
+$rbacPermission = array(
+  'is_admin' => 'Admin',
+  'can_create_story' => "Can create story",
+  'can_edit_story' => "Can edit story",
+  'can_delete_story' => "Can delete story",
+  'can_add_post' => "Can add post"
+  );
+define('PERMISSION', json_encode($rbacPermission));
 define('ALL_ENTRY', '999999');
 #define('STORY','story');
 define('STORY','story');
