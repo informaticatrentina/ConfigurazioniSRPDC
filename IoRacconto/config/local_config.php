@@ -195,5 +195,5 @@ define('FIRST_STORY_SLUG', '');
 define('SHARE_LOCATION', 'Share Location');
 
 //authentication key for google analytic code
-define('GOOGLE_ANALYTIC_AUTH_KEY', 'UA-57628407-4');
+define('GOOGLE_ANALYTIC_AUTH_KEY', 'UA-92297575-19');
 define('GOOGLE_ANALYTIC_COOKIE_DOMAIN','jlb_timu.partecipa.tn.it');
